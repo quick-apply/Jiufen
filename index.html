@@ -3,7 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>九份惠風民宿 | Jiufen Breeze - 漫步雲霧間的山城慢旅</title>
+    
+    <!-- --- SEO 基本設定 --- -->
+    <title>九份惠風民宿 | Jiufen Breeze - 漫步雲霧間的山城包棟慢旅</title>
+    <meta name="description" content="九份惠風民宿位於新北市瑞芳區，鄰近九份老街僅400公尺。提供精緻雙人房、家庭四人房及6人包棟服務。房間配備暖氣與除濕設備，坐擁絕美山海景觀，是您九份旅遊的最佳住宿選擇。">
+    <meta name="keywords" content="九份民宿, 九份住宿, 九份包棟, 九份海景民宿, 九份惠風民宿, 瑞芳民宿, 金瓜石住宿, 九份老街民宿">
+    <meta name="author" content="九份惠風民宿">
+    <link rel="canonical" href="https://jiufen-breeze.com/"> <!-- 建議替換為正式網址 -->
+
+    <!-- --- Open Graph 社交媒體標籤 (Facebook, LINE) --- -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="九份惠風民宿 | 漫步雲霧間的山城慢旅">
+    <meta property="og:description" content="鄰近九份老街，提供溫馨雙人房、四人房及私人包棟。享受絕美山海景色與質感山城生活。">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1504913659239-6abc87875a63?q=80&w=1200&auto=format&fit=crop">
+    <meta property="og:url" content="https://jiufen-breeze.com/">
+
+    <!-- --- 結構化資料 JSON-LD (提升 Google 搜尋結果權重) --- -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BedAndBreakfast",
+      "name": "九份惠風民宿 (Jiufen Breeze)",
+      "image": "https://images.unsplash.com/photo-1504913659239-6abc87875a63",
+      "@id": "https://jiufen-breeze.com/",
+      "url": "https://jiufen-breeze.com/",
+      "telephone": "+886-955-799-600",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "街頂巷41號",
+        "addressLocality": "瑞芳區",
+        "addressRegion": "新北市",
+        "postalCode": "224",
+        "addressCountry": "TW"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 25.1075575,
+        "longitude": 121.8446058
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "9.2",
+        "reviewCount": "101"
+      },
+      "priceRange": "NT$"
+    }
+    </script>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&family=Noto+Sans+TC:wght@300;400;500&display=swap" rel="stylesheet">
@@ -148,7 +194,7 @@
     </nav>
 
     <!-- 主視覺 Hero Section (4秒切換) -->
-    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+    <header class="relative h-screen flex items-center justify-center overflow-hidden">
         <div class="hero-bg-container">
             <div class="hero-bg-slide active" style="background-image: url('https://images.unsplash.com/photo-1504913659239-6abc87875a63?q=80&w=2000&auto=format&fit=crop');"></div>
             <div class="hero-bg-slide" style="background-image: url('https://images.unsplash.com/photo-1578469550956-0e16b69c6a3d?q=80&w=2000&auto=format&fit=crop');"></div>
@@ -176,7 +222,7 @@
         <div class="absolute bottom-10 left-1/2 -translate-x-1/2 z-30 animate-bounce text-glow">
             <i class="fas fa-chevron-down text-white text-xl"></i>
         </div>
-    </section>
+    </header>
 
     <!-- 關於我們 About -->
     <section id="about" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -203,8 +249,8 @@
                 </div>
             </div>
             <div class="order-1 md:order-2 grid grid-cols-2 gap-4">
-                <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=800&auto=format&fit=crop" alt="九份夜景" class="rounded-2xl shadow-lg mt-8 object-cover h-64">
-                <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=800&auto=format&fit=crop" alt="民宿外觀" class="rounded-2xl shadow-lg object-cover h-64">
+                <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=800&auto=format&fit=crop" alt="九份老街經典夜景圖" class="rounded-2xl shadow-lg mt-8 object-cover h-64">
+                <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=800&auto=format&fit=crop" alt="九份惠風民宿外觀及舒適環境" class="rounded-2xl shadow-lg object-cover h-64">
             </div>
         </div>
     </section>
@@ -222,9 +268,9 @@
                 <div class="bg-white rounded-3xl overflow-hidden shadow-sm card-hover flex flex-col h-full font-sans" id="room-slider-1">
                     <div class="h-64 relative group overflow-hidden bg-slate-200">
                         <div class="slider-wrapper h-full relative">
-                            <img src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=800&auto=format&fit=crop" alt="雙人房-臥室" class="slider-img absolute inset-0 w-full h-full object-cover">
-                            <img src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=800&auto=format&fit=crop" alt="雙人房-窗景" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
-                            <img src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?q=80&w=800&auto=format&fit=crop" alt="雙人房-衛浴" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
+                            <img src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=800&auto=format&fit=crop" alt="九份惠風民宿-雙人房臥室空間" class="slider-img absolute inset-0 w-full h-full object-cover">
+                            <img src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=800&auto=format&fit=crop" alt="九份惠風民宿-雙人房窗外絕美景致" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
+                            <img src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?q=80&w=800&auto=format&fit=crop" alt="九份惠風民宿-雙人房私人衛浴設備" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
                         </div>
                         <button onclick="changeSlide(1, -1)" class="absolute left-2 top-1/2 -translate-y-1/2 bg-white/50 hover:bg-white p-2 rounded-full text-stone-800 transition opacity-0 group-hover:opacity-100 z-10">
                             <i class="fas fa-chevron-left"></i>
@@ -253,9 +299,9 @@
                 <div class="bg-white rounded-3xl overflow-hidden shadow-sm card-hover flex flex-col h-full font-sans" id="room-slider-2">
                     <div class="h-64 relative group overflow-hidden bg-slate-200">
                         <div class="slider-wrapper h-full relative">
-                            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=800&auto=format&fit=crop" alt="四人房-主景" class="slider-img absolute inset-0 w-full h-full object-cover">
-                            <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?q=80&w=800&auto=format&fit=crop" alt="四人房-細節" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
-                            <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800&auto=format&fit=crop" alt="四人房-氛圍" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
+                            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=800&auto=format&fit=crop" alt="九份惠風民宿-家庭四人房主景" class="slider-img absolute inset-0 w-full h-full object-cover">
+                            <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?q=80&w=800&auto=format&fit=crop" alt="九份惠風民宿-家庭四人房精緻細節" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
+                            <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800&auto=format&fit=crop" alt="九份惠風民宿-客房溫馨氛圍" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
                         </div>
                         <button onclick="changeSlide(2, -1)" class="absolute left-2 top-1/2 -translate-y-1/2 bg-white/50 hover:bg-white p-2 rounded-full text-stone-800 transition opacity-0 group-hover:opacity-100 z-10">
                             <i class="fas fa-chevron-left"></i>
@@ -285,9 +331,9 @@
                     <div class="h-64 relative group overflow-hidden bg-stone-800">
                         <div class="absolute top-4 right-4 z-20 bg-amber-600 text-white text-xs px-3 py-1 rounded-full font-bold uppercase tracking-wider text-glow font-sans">熱門選擇</div>
                         <div class="slider-wrapper h-full relative">
-                            <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=800&auto=format&fit=crop" alt="包棟-客廳" class="slider-img absolute inset-0 w-full h-full object-cover">
-                            <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?q=80&w=800&auto=format&fit=crop" alt="包棟-外觀" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
-                            <img src="https://images.unsplash.com/photo-1578469550956-0e16b69c6a3d?q=80&w=800&auto=format&fit=crop" alt="包棟-氛圍" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
+                            <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=800&auto=format&fit=crop" alt="九份惠風民宿-私人包棟客廳空間" class="slider-img absolute inset-0 w-full h-full object-cover">
+                            <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?q=80&w=800&auto=format&fit=crop" alt="九份惠風民宿-山城特色建築外觀" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
+                            <img src="https://images.unsplash.com/photo-1578469550956-0e16b69c6a3d?q=80&w=800&auto=format&fit=crop" alt="九份惠風民宿-夜晚悠閒氛圍" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
                         </div>
                         <button onclick="changeSlide(3, -1)" class="absolute left-2 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/60 p-2 rounded-full text-white transition opacity-0 group-hover:opacity-100 z-10">
                             <i class="fas fa-chevron-left"></i>
@@ -395,7 +441,7 @@
         </div>
     </section>
 
-    <!-- 地圖與交通 Contact (地圖高度 2 倍) -->
+    <!-- 地圖與交通 Contact -->
     <section id="contact" class="py-24 bg-stone-50 font-sans border-t border-stone-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-5 gap-12">
@@ -458,17 +504,16 @@
         </div>
     </section>
 
-    <!-- 頁尾 Footer (更新 Facebook 連結) -->
+    <!-- 頁尾 Footer -->
     <footer class="bg-stone-100 py-12 border-t border-stone-200 text-center font-sans">
         <div class="mb-6 font-serif text-xl font-bold text-stone-700 tracking-widest uppercase">九份惠風民宿</div>
         <div class="flex justify-center space-x-6 mb-6">
-            <a href="tel:0955799600" class="text-stone-400 hover:text-amber-800 transition" title="撥打電話"><i class="fas fa-phone"></i></a>
-            <a href="https://line.me/ti/p/q-ZfRhX6xW" target="_blank" class="text-stone-400 hover:text-[#06C755] transition" title="LINE 預訂"><i class="fab fa-line"></i></a>
-            <button onclick="openWeChatModal()" class="text-stone-400 hover:text-[#07C160] transition" title="WeChat 預訂"><i class="fab fa-weixin"></i></button>
-            <!-- 修正後的 Facebook 連結 -->
-            <a href="https://www.facebook.com/JiufenBreeze?locale=zh_TW" target="_blank" class="text-stone-400 hover:text-[#1877F2] transition" title="Facebook 粉絲專頁"><i class="fab fa-facebook-f"></i></a>
+            <a href="tel:0955799600" class="text-stone-400 hover:text-amber-800 transition" title="撥打預訂電話"><i class="fas fa-phone"></i></a>
+            <a href="https://line.me/ti/p/q-ZfRhX6xW" target="_blank" class="text-stone-400 hover:text-[#06C755] transition" title="加入LINE好友預訂"><i class="fab fa-line"></i></a>
+            <button onclick="openWeChatModal()" class="text-stone-400 hover:text-[#07C160] transition" title="掃描WeChat二維碼預訂"><i class="fab fa-weixin"></i></button>
+            <a href="https://www.facebook.com/JiufenBreeze?locale=zh_TW" target="_blank" class="text-stone-400 hover:text-[#1877F2] transition" title="造訪Facebook粉絲專頁"><i class="fab fa-facebook-f"></i></a>
         </div>
-        <p class="text-xs text-stone-500 tracking-widest uppercase font-medium">© 2026 Jiufen Breeze. All Rights Reserved.</p>
+        <p class="text-xs text-stone-500 tracking-widest uppercase font-medium">© 2026 九份惠風民宿 Jiufen Breeze. All Rights Reserved.</p>
     </footer>
 
     <!-- 浮動預訂按鈕 (手機端) -->
