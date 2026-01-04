@@ -9,22 +9,25 @@
     <meta name="description" content="九份惠風民宿位於新北市瑞芳區，鄰近九份老街僅400公尺。提供精緻雙人房、家庭四人房及6人包棟服務。房間配備暖氣與除濕設備，坐擁絕美山海景觀，是您九份旅遊的最佳住宿選擇。">
     <meta name="keywords" content="九份民宿, 九份住宿, 九份包棟, 九份海景民宿, 九份惠風民宿, 瑞芳民宿, 金瓜石住宿, 九份老街民宿">
     <meta name="author" content="九份惠風民宿">
-    <link rel="canonical" href="https://jiufen-breeze.com/"> <!-- 建議替換為正式網址 -->
+    <link rel="canonical" href="https://jiufen-breeze.com/">
+
+    <!-- --- 網站 Icon --- -->
+    <link rel="icon" type="image/png" href="https://github.com/quick-apply/Jiufen/blob/main/sLogo.png?raw=true">
 
     <!-- --- Open Graph 社交媒體標籤 (Facebook, LINE) --- -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="九份惠風民宿 | 漫步雲霧間的山城慢旅">
     <meta property="og:description" content="鄰近九份老街，提供溫馨雙人房、四人房及私人包棟。享受絕美山海景色與質感山城生活。">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1504913659239-6abc87875a63?q=80&w=1200&auto=format&fit=crop">
+    <meta property="og:image" content="https://github.com/quick-apply/Jiufen/blob/9914ef0bc63a6e4178697e5e48eb33f871fd14be/%E4%B9%9D%E4%BB%BD%E6%83%A0%E9%A2%A8%E6%B0%91%E5%AE%BF%E5%A4%96%E9%9D%A203.jpg?raw=true">
     <meta property="og:url" content="https://jiufen-breeze.com/">
 
-    <!-- --- 結構化資料 JSON-LD (提升 Google 搜尋結果權重) --- -->
+    <!-- --- 結構化資料 JSON-LD --- -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "BedAndBreakfast",
       "name": "九份惠風民宿 (Jiufen Breeze)",
-      "image": "https://images.unsplash.com/photo-1504913659239-6abc87875a63",
+      "image": "https://github.com/quick-apply/Jiufen/blob/9914ef0bc63a6e4178697e5e48eb33f871fd14be/%E4%B9%9D%E4%BB%BD%E6%83%A0%E9%A2%A8%E6%B0%91%E5%AE%BF%E5%A4%96%E9%9D%A203.jpg?raw=true",
       "@id": "https://jiufen-breeze.com/",
       "url": "https://jiufen-breeze.com/",
       "telephone": "+886-955-799-600",
@@ -151,15 +154,15 @@
     <!-- WeChat 圖片彈出視窗 (WeChat QR Code) -->
     <div id="wechat-modal" onclick="closeWeChatModal()">
         <div class="bg-white p-4 rounded-3xl max-w-xs w-full shadow-2xl relative" onclick="event.stopPropagation()">
-            <button onclick="closeWeChatModal()" class="absolute -top-12 right-0 text-white text-3xl">
+            <button onclick="closeWeChatModal()" class="absolute -top-12 right-0 text-white text-3xl hover:text-stone-300 transition">
                 <i class="fas fa-times"></i>
             </button>
             <div class="text-center mb-4 font-sans">
                 <p class="font-bold text-slate-800 text-lg">掃描 QR Code 加好友</p>
                 <p class="text-xs text-slate-400">WeChat ID: kuan2203</p>
             </div>
-            <!--  -->
-            <img src="https://u.wechat.com/kCCE_ixJZ2KidktJ_r6xbqU" onerror="this.src='https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=kuan2203'" alt="WeChat QR Code" class="w-full h-auto rounded-xl shadow-inner border">
+            <!-- 使用指定的 WeChat 圖片網址 -->
+            <img src="https://github.com/quick-apply/Jiufen/blob/main/S__46587936.jpg?raw=true" alt="WeChat 二維碼" class="w-full h-auto rounded-xl shadow-inner border">
             <p class="text-center mt-4 text-sm text-amber-800 font-medium tracking-wider italic">九份惠風民宿 歡迎您</p>
         </div>
     </div>
@@ -168,15 +171,16 @@
     <nav class="fixed w-full z-[100] blur-nav border-b border-stone-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
-                <div class="flex-shrink-0 flex items-center">
-                    <span class="text-2xl font-bold tracking-widest text-stone-700 font-serif">九份惠風民宿</span>
+                <div class="flex-shrink-0 flex items-center space-x-3">
+                    <img src="https://github.com/quick-apply/Jiufen/blob/main/sLogo.png?raw=true" alt="九份惠風民宿 Logo" class="h-10 w-auto">
+                    <span class="text-xl md:text-2xl font-bold tracking-widest text-stone-700 font-serif">九份惠風民宿</span>
                 </div>
-                <div class="hidden lg:flex space-x-8 text-sm font-medium text-stone-600 tracking-wide">
-                    <a href="#about" class="hover:text-amber-700 transition font-sans">關於惠風</a>
-                    <a href="#rooms" class="hover:text-amber-700 transition font-sans">客房資訊</a>
-                    <a href="#features" class="hover:text-amber-700 transition font-sans">服務設施</a>
-                    <a href="#reviews" class="hover:text-amber-700 transition font-sans">旅人評價</a>
-                    <a href="#contact" class="hover:text-amber-700 transition font-sans">交通聯絡</a>
+                <div class="hidden lg:flex space-x-8 text-sm font-medium text-stone-600 tracking-wide font-sans">
+                    <a href="#about" class="hover:text-amber-700 transition">關於惠風</a>
+                    <a href="#rooms" class="hover:text-amber-700 transition">客房資訊</a>
+                    <a href="#features" class="hover:text-amber-700 transition">服務設施</a>
+                    <a href="#reviews" class="hover:text-amber-700 transition">旅人評價</a>
+                    <a href="#contact" class="hover:text-amber-700 transition">交通聯絡</a>
                 </div>
                 <div class="flex items-center space-x-2">
                     <a href="https://line.me/ti/p/q-ZfRhX6xW" target="_blank" class="hidden sm:flex bg-[#06C755] text-white p-2 rounded-full hover:brightness-110 transition items-center shadow-sm" title="LINE 預訂">
@@ -196,9 +200,9 @@
     <!-- 主視覺 Hero Section (4秒切換) -->
     <header class="relative h-screen flex items-center justify-center overflow-hidden">
         <div class="hero-bg-container">
-            <div class="hero-bg-slide active" style="background-image: url('https://github.com/quick-apply/Jiufen/blob/main/%E4%B9%9D%E4%BB%BD%E6%83%A0%E9%A2%A8%E6%B0%91%E5%AE%BF%E5%A4%96%E9%9D%A201.png?raw=true');"></div>
-            <div class="hero-bg-slide" style="background-image: url('https://github.com/quick-apply/Jiufen/blob/main/%E4%B9%9D%E4%BB%BD%E6%83%A0%E9%A2%A8%E6%B0%91%E5%AE%BF%E5%A4%96%E9%9D%A202.jpg?raw=true');"></div>
-            <div class="hero-bg-slide" style="background-image: url('https://github.com/quick-apply/Jiufen/blob/main/%E4%B9%9D%E4%BB%BD%E6%83%A0%E9%A2%A8%E6%B0%91%E5%AE%BF%E5%A4%96%E9%9D%A203.jpg?raw=true');"></div>
+            <div class="hero-bg-slide active" style="background-image: url('https://github.com/quick-apply/Jiufen/blob/9914ef0bc63a6e4178697e5e48eb33f871fd14be/%E4%B9%9D%E4%BB%BD%E6%83%A0%E9%A2%A8%E6%B0%91%E5%AE%BF%E5%A4%96%E9%9D%A203.jpg?raw=true');"></div>
+            <div class="hero-bg-slide" style="background-image: url('https://github.com/quick-apply/Jiufen/blob/9914ef0bc63a6e4178697e5e48eb33f871fd14be/%E4%B9%9D%E4%BB%BD%E6%83%A0%E9%A2%A8%E6%B0%91%E5%AE%BF%E5%A4%96%E9%9D%A202.jpg?raw=true');"></div>
+            <div class="hero-bg-slide" style="background-image: url('https://github.com/quick-apply/Jiufen/blob/9914ef0bc63a6e4178697e5e48eb33f871fd14be/%E4%B9%9D%E4%BB%BD%E6%83%A0%E9%A2%A8%E6%B0%91%E5%AE%BF%E5%A4%96%E9%9D%A201.png?raw=true');"></div>
         </div>
         <div class="hero-overlay"></div>
         
@@ -249,8 +253,9 @@
                 </div>
             </div>
             <div class="order-1 md:order-2 grid grid-cols-2 gap-4">
-                <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=800&auto=format&fit=crop" alt="九份老街經典夜景圖" class="rounded-2xl shadow-lg mt-8 object-cover h-64">
-                <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=800&auto=format&fit=crop" alt="九份惠風民宿外觀及舒適環境" class="rounded-2xl shadow-lg object-cover h-64">
+                <!-- 更新：替換為指定的民宿外觀實景照片 03 -->
+                <img src="https://github.com/quick-apply/Jiufen/blob/main/%E4%B9%9D%E4%BB%BD%E6%83%A0%E9%A2%A8%E6%B0%91%E5%AE%BF%E5%A4%96%E9%9D%A203.jpg?raw=true" alt="九份惠風民宿外觀實拍" class="rounded-2xl shadow-lg mt-8 object-cover h-64">
+                <img src="https://github.com/quick-apply/Jiufen/blob/9914ef0bc63a6e4178697e5e48eb33f871fd14be/%E4%B9%9D%E4%BB%BD%E6%83%A0%E9%A2%A8%E6%B0%91%E5%AE%BF%E5%A4%96%E9%9D%A202.jpg?raw=true" alt="九份惠風民宿外觀實景" class="rounded-2xl shadow-lg object-cover h-64">
             </div>
         </div>
     </section>
@@ -268,9 +273,9 @@
                 <div class="bg-white rounded-3xl overflow-hidden shadow-sm card-hover flex flex-col h-full font-sans" id="room-slider-1">
                     <div class="h-64 relative group overflow-hidden bg-slate-200">
                         <div class="slider-wrapper h-full relative">
-                            <img src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=800&auto=format&fit=crop" alt="九份惠風民宿-雙人房臥室空間" class="slider-img absolute inset-0 w-full h-full object-cover">
-                            <img src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=800&auto=format&fit=crop" alt="九份惠風民宿-雙人房窗外絕美景致" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
-                            <img src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?q=80&w=800&auto=format&fit=crop" alt="九份惠風民宿-雙人房私人衛浴設備" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
+                            <img src="https://github.com/quick-apply/Jiufen/blob/main/2%E4%BA%BA%E6%88%BF01.png?raw=true" alt="精緻雙人房-實景1" class="slider-img absolute inset-0 w-full h-full object-cover">
+                            <img src="https://github.com/quick-apply/Jiufen/blob/main/2%E4%BA%BA%E6%88%BF02.JPG?raw=true" alt="精緻雙人房-實景2" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
+                            <img src="https://github.com/quick-apply/Jiufen/blob/main/2%E4%BA%BA%E6%88%BF03.JPG?raw=true" alt="精緻雙人房-實景3" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
                         </div>
                         <button onclick="changeSlide(1, -1)" class="absolute left-2 top-1/2 -translate-y-1/2 bg-white/50 hover:bg-white p-2 rounded-full text-stone-800 transition opacity-0 group-hover:opacity-100 z-10">
                             <i class="fas fa-chevron-left"></i>
@@ -299,9 +304,9 @@
                 <div class="bg-white rounded-3xl overflow-hidden shadow-sm card-hover flex flex-col h-full font-sans" id="room-slider-2">
                     <div class="h-64 relative group overflow-hidden bg-slate-200">
                         <div class="slider-wrapper h-full relative">
-                            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=800&auto=format&fit=crop" alt="九份惠風民宿-家庭四人房主景" class="slider-img absolute inset-0 w-full h-full object-cover">
-                            <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?q=80&w=800&auto=format&fit=crop" alt="九份惠風民宿-家庭四人房精緻細節" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
-                            <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800&auto=format&fit=crop" alt="九份惠風民宿-客房溫馨氛圍" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
+                            <img src="https://github.com/quick-apply/Jiufen/blob/main/4%E4%BA%BA%E6%88%BF01.png?raw=true" alt="家庭四人房-實景1" class="slider-img absolute inset-0 w-full h-full object-cover">
+                            <img src="https://github.com/quick-apply/Jiufen/blob/main/4%E4%BA%BA%E6%88%BF02.jpg?raw=true" alt="家庭四人房-實景2" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
+                            <img src="https://github.com/quick-apply/Jiufen/blob/main/4%E4%BA%BA%E6%88%BF03.jpg?raw=true" alt="家庭四人房-實景3" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
                         </div>
                         <button onclick="changeSlide(2, -1)" class="absolute left-2 top-1/2 -translate-y-1/2 bg-white/50 hover:bg-white p-2 rounded-full text-stone-800 transition opacity-0 group-hover:opacity-100 z-10">
                             <i class="fas fa-chevron-left"></i>
@@ -327,13 +332,13 @@
                 </div>
 
                 <!-- 包棟服務 -->
-                <div class="bg-amber-900 text-white rounded-3xl overflow-hidden shadow-xl card-hover border-4 border-amber-800 flex flex-col h-full font-sans" id="room-slider-3">
+                <div class="bg-amber-900 text-white rounded-3xl overflow-hidden shadow-xl card-hover flex flex-col h-full font-sans" id="room-slider-3">
                     <div class="h-64 relative group overflow-hidden bg-stone-800">
                         <div class="absolute top-4 right-4 z-20 bg-amber-600 text-white text-xs px-3 py-1 rounded-full font-bold uppercase tracking-wider text-glow font-sans">熱門選擇</div>
                         <div class="slider-wrapper h-full relative">
-                            <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=800&auto=format&fit=crop" alt="九份惠風民宿-私人包棟客廳空間" class="slider-img absolute inset-0 w-full h-full object-cover">
-                            <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?q=80&w=800&auto=format&fit=crop" alt="九份惠風民宿-山城特色建築外觀" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
-                            <img src="https://images.unsplash.com/photo-1578469550956-0e16b69c6a3d?q=80&w=800&auto=format&fit=crop" alt="九份惠風民宿-夜晚悠閒氛圍" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
+                            <img src="https://github.com/quick-apply/Jiufen/blob/main/%E5%8C%85%E6%A3%9F01.png?raw=true" alt="私人包棟-實景1" class="slider-img absolute inset-0 w-full h-full object-cover">
+                            <img src="https://github.com/quick-apply/Jiufen/blob/main/2%E4%BA%BA%E6%88%BF01.png?raw=true" alt="私人包棟-實景2" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
+                            <img src="https://github.com/quick-apply/Jiufen/blob/main/4%E4%BA%BA%E6%88%BF01.png?raw=true" alt="私人包棟-實景3" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0">
                         </div>
                         <button onclick="changeSlide(3, -1)" class="absolute left-2 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/60 p-2 rounded-full text-white transition opacity-0 group-hover:opacity-100 z-10">
                             <i class="fas fa-chevron-left"></i>
@@ -348,7 +353,7 @@
                         </div>
                     </div>
                     <div class="p-8 flex-grow">
-                        <h3 class="text-xl font-bold mb-2 font-serif text-white">6人獨門小屋外包</h3>
+                        <h3 class="text-xl font-bold mb-2 font-serif text-white">6人包棟</h3>
                         <p class="text-amber-100 text-sm mb-4 font-sans leading-relaxed">專屬私人隱私空間，全棟設備專供您的親友享用，享受九份慢活。</p>
                         <ul class="text-sm text-amber-50 space-y-2 font-sans">
                             <li><i class="fas fa-star text-amber-400 mr-2"></i> 完全獨立隱私空間</li>
@@ -469,7 +474,7 @@
                                 <div class="w-10 h-10 bg-[#07C160] rounded-xl flex items-center justify-center text-white mr-4 shadow-sm"><i class="fab fa-weixin text-lg"></i></div>
                                 <div>
                                     <h5 class="font-bold text-sm text-slate-400 uppercase tracking-wider mb-1">WeChat 預訂</h5>
-                                    <p class="text-slate-700 font-medium">ID: <span class="select-all font-bold">kuan2203</span></p>
+                                    <p class="text-slate-700 font-medium font-sans">ID: <span class="select-all font-bold">kuan2203</span></p>
                                     <button onclick="openWeChatModal()" class="text-xs text-[#07C160] font-bold hover:underline text-left">點我直接加入WeChat 好友 →</button>
                                 </div>
                             </div>
@@ -506,7 +511,10 @@
 
     <!-- 頁尾 Footer -->
     <footer class="bg-stone-100 py-12 border-t border-stone-200 text-center font-sans">
-        <div class="mb-6 font-serif text-xl font-bold text-stone-700 tracking-widest uppercase">九份惠風民宿</div>
+        <div class="mb-6 font-serif text-xl font-bold text-stone-700 tracking-widest uppercase flex items-center justify-center space-x-2">
+            <img src="https://github.com/quick-apply/Jiufen/blob/main/sLogo.png?raw=true" alt="Logo" class="h-6 w-auto">
+            <span>九份惠風民宿</span>
+        </div>
         <div class="flex justify-center space-x-6 mb-6">
             <a href="tel:0955799600" class="text-stone-400 hover:text-amber-800 transition" title="撥打預訂電話"><i class="fas fa-phone"></i></a>
             <a href="https://line.me/ti/p/q-ZfRhX6xW" target="_blank" class="text-stone-400 hover:text-[#06C755] transition" title="加入LINE好友預訂"><i class="fab fa-line"></i></a>
